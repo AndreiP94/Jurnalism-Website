@@ -1,0 +1,266 @@
+/* Stiluri specifice acestei pagini */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-buttons {
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.header-buttons .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.category {
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.category table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.category table th,
+.category table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.category table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.category table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.category table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.category table td p {
+    margin: 0;
+    text-align: center;
+}
+
+/* Stiluri specifice pentru adăugarea unui articol nou */
+.article-form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-form h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.article-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.article-form input[type="text"],
+.article-form textarea {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.article-form textarea {
+    resize: vertical;
+}
+
+.article-form .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.article-form .button:hover {
+    background-color: #0056b3;
+}
+
+/* CSS pentru pagina de logare */
+.login-container {
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    margin-top: 15px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: calc(100% - 30px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.login-container h3 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-container h3 a {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 5px;
+}
+
+/* Stilizare pentru link-ul "Inapoi la Pagina Principala" */
+div {
+    text-align: center;
+    margin-top: 15px;
+}
+
+div a {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 5px;
+}
+/* CSS pentru pagina de înregistrare */
+.registration-form {
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.registration-form label {
+    display: block;
+    margin-top: 15px;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="password"] {
+    width: calc(100% - 30px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.registration-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.registration-form h3 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.registration-form h3 a {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 5px;
+}
+
+/* Stilizare pentru ultima parte - linkul "Înapoi la Pagina Principala" */
+div {
+    text-align: center;
+    margin-top: 15px;
+}
+
+div a {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 5px;
+}

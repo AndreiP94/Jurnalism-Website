@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autentificare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="registration-form">
+    <h2>Înregistrare</h2>
+    <form action="proceseaza_inregistrare.php" method="post">
+        <label for="nume">Nume:</label>
+        <input type="text" id="nume" name="nume" required>
+
+        <label for="prenume">Prenume:</label>
+        <input type="text" id="prenume" name="prenume" required>
+
+        <label for="username">Utilizator:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="parola">Parolă:</label>
+        <input type="password" id="parola" name="parola" required>
+
+
+        <button type="submit" class="button">Înregistrare</button>
+    </form>
+    <h3> Inregistrarea se va face automat ca si cititor.
+         Daca doriti sa va inregistrati ca si jurnalist si sa publicati , va rugam sa apasati aici pentru mai
+        multe detalii. <br><a href='detalii.html' class='button'>Detalii</a></h3> </h3>
+
+</div>
+<br>
+<div>
+    <h3>Inapoi la <a href='index.php' class='button'>Pagina Principala</a></h3>
+</div>
+</body>
+</html>
